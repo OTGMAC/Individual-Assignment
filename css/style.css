@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+.background {
+	background-image: url(../images/mixer.jpg);
+	margin:0; padding:0;
+}
+
+.container {
+  padding: 80px 120px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.card-header-tabs {
+ 	border: ridge;
+	border-color: #FABE7D;
+	color: #F80609;
+}
+
+.middlepic{
+	height: 400px;
+	width: 450px;
+	margin: 25px;
+	border-radius: 50px;
+	border: ridge;
+	border-color: #DC7326;
+	float: right;}
+
+
+.col-sm-6 h2{
+	float: left;
+	color: #E8AF51;
+	margin: 10px;
+}
+
+.col-sm-6 p{ border: double;
+border-color: #FFAAA9;
+align-content: space-around;
+background-color: #FDE1C2;
+font-family: "almendra-sc";	
+border-radius: 15px;
+color: #FF7200;	
+}
+
+.bg-4 {
+  background: #2d2d30;
+  color: #bdbdbd;
+  margin-bottom: 10px;	
+}
+.bg-4 h3 {color: #fff;}
+.bg-4 p {font-style: italic;}
+
+
+.facebook-logo{
+    margin-left: 10px;
+    margin-right: 10px;
+	
+}
+.instagram-logo{
+    margin-left: 10px;
+    margin-right: 10px;
+	
+}
+
+.modal-footer{
+  background-color: #585858;
+ 
+}
